@@ -63,6 +63,7 @@ Additional Features:
 - if the record name(s) specified in -Name consist of only an @ sign, then that is interpreted as looking for root zone records only.
 - The -RRType parameter accepts an array so you can return records that match multiple RR types.
 - Additional fields returned by the CIM calls are not removed, so they are accessible if needed.
+- The DescriptiveText property on TXT records is returned as a mult-line string for multi-line records.
 
 .PARAMETER ComputerName
 The DNS server to connect to. 
