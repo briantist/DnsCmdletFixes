@@ -3,11 +3,11 @@ DnsCmdletFixes
 
 Provides fixes to various DnsServer cmdlets, aiming to be as close as possible to a drop-in replacement.
 
-# Functions
+## Functions
 
-## Replacement DNS Cmdlets
+### Replacement DNS Cmdlets
 
-### Get-FixedDnsServerResourceRecord
+#### Get-FixedDnsServerResourceRecord
 
 
-## Helper Functions
+### Helper Functions
