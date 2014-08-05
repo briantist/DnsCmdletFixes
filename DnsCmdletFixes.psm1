@@ -1,6 +1,12 @@
 <#
 .SYNOPSIS
 Provides fixes to various DnsServer cmdlets, aiming to be as close as possible to a drop-in replacement.
+
+.LINK
+http://www.briantist.com/errors/get-dnsserverresourcerecord-returns-duplicate-records-when-sub-domain-matching-zone-exists/
+
+.LINK
+https://github.com/briantist/DnsCmdletFixes
 #>
 
 #Requires -Version 3.0
@@ -115,6 +121,17 @@ Get-FixedDnsServerResourceRecord -ComputerName myDnsServer -ZoneName corp.compan
 
 Returns MX records in the root of the zone (corp.company.com), and in the prod, dev, and test sub-domains of the zone.
 
+.LINK
+http://www.briantist.com/errors/get-dnsserverresourcerecord-returns-duplicate-records-when-sub-domain-matching-zone-exists/
+
+.LINK
+https://github.com/briantist/DnsCmdletFixes
+
+.LINK
+https://connect.microsoft.com/PowerShell/feedback/details/816342/get-dnsserverresourcerecord-returns-duplicate-records-when-a-sub-domain-matching-the-zone-exists
+
+.LINK
+https://connect.microsoft.com/PowerShell/feedback/details/776964/
 #>
 [CmdletBinding(DefaultParameterSetName='ComputerName')]
 param(
