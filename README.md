@@ -3,6 +3,11 @@ DnsCmdletFixes
 
 Provides fixes to various DnsServer cmdlets, aiming to be as close as possible to a drop-in replacement.
 
+###### Links:
+* [[blog] Get-DnsServerResourceRecord returns duplicate records when a sub-domain matching the zone exists](http://www.briantist.com/errors/get-dnsserverresourcerecord-returns-duplicate-records-when-sub-domain-matching-zone-exists/)
+* [[bug report] Get-DnsServerResourceRecord returns duplicate records when a sub-domain matching the zone exists](https://connect.microsoft.com/PowerShell/feedback/details/816342/get-dnsserverresourcerecord-returns-duplicate-records-when-a-sub-domain-matching-the-zone-exists)
+* [[bug report] The Get-DnsServerResourceRecord outputs incorrect information about TXT record](https://connect.microsoft.com/PowerShell/feedback/details/776964/)
+
 ## Functions
 
 ### Replacement DNS Cmdlets
